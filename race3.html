@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance vs Charlie</title>
+    <style>
+        button{
+            margin:0;
+            border-radius:5px;
+            background-color:rgb(46, 173, 173);
+            font-family:monospace;
+        }
+        body{
+            background-color:darkcyan;
+        }
+        #whattheabsolutepoopisthislongidname{
+            text-align:center;
+            background-color:darkcyan;
+            font-weight:bold;
+            font-family:Impact;
+            font-size:50px;
+            border:solid;
+            border-radius: 30px;
+        }
+        #blocktwo{
+            position:relative;
+            animation:block 3.2s linear infinite;
+            border:solid 1px;
+            background-color:darkkhaki;
+            top:130px;
+            left:480px;
+            height:30px;
+            width:40px;
+
+        }
+        @keyframes block{
+            0%{left:500px}
+            100%{left:-20px}
+        }
+        #block{
+            position:relative;
+            animation:block 3s linear infinite;
+            border-radius:5px;
+            border:solid 1px;
+            top:100px;
+            left:480px;
+            height:30px;
+            width:30px;
+            background-color:greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <p id="whattheabsolutepoopisthislongidname">Lance vs Charlie</p>
+   <div id="block">Lance</div>
+   <div id="blocktwo">Charlie</div>
+</body>
+</html>

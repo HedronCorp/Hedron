@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaRace no. 1</title>
+    <style>
+        body{
+            background-color:darkcyan;
+        }
+        @keyframes block{
+            0%{left:500px}
+            100%{left:-20px}
+        }
+        .block{
+            animation: block 2.1s linear infinite;
+            position:relative;
+            top:100px;
+            left:130px;
+            border:solid 1px;
+            border-radius:30px;
+            height:30px;
+            width:50px;
+            background-color:#94ffdd;
+        }
+                .blocktwo{
+            animation: block 2s linear infinite;
+            position:relative;
+            top:130px;
+            left:130px;
+            border:solid 1px;
+            border-radius:30px;
+            height:30px;
+            width:50px;
+            background-color:#7c63cf;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">Esther</div>
+    <div class="blocktwo">Roman</div>
+    <div class="blockthree">Alan</div>
+    <div class="blockfour">Adam</div>
+</body>
+</html>

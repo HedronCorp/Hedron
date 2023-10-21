@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill and Jarvis</title>
+    <style>
+        body{
+            background-color:darkcyan;
+        }
+        #whatsupmadude{
+            border:solid;
+            text-align:center;
+            border-radius: 50px;
+            font-family:Impact;
+            font-size:50px;
+            background-color:darkcyan;
+        }
+        button{
+            padding:0;
+            margin:0;
+            border-radius:5px;
+            background-color:rgb(46,173,173);
+        }
+        @keyframes block{
+            0%{left:500px}
+            100%{left:-20px}
+        }
+        #blocktwo{
+            background-color:yellowgreen;
+            position:relative;
+            border:solid 1px;
+            border-radius:10px;
+            width:30px;
+            height:30px;
+            animation:block 1.7s linear infinite;
+            top:130px;
+            left:480px;
+        }
+        #block{
+            background-color:darkorange;
+            position:relative;
+            animation:block 2s linear infinite;
+            border:solid 1px;
+            border-radius:10px;
+            width:30px;
+            height:30px;
+            top:100px;
+            left:480px;
+        }
+    </style>
+</head>
+<body>
+    <p id="whatsupmadude">Bill and Jarvis</p>
+    <div id="block">Bill</div>
+    <div id="blocktwo">Jarvis</div>
+</body>
+</html>
